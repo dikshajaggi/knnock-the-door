@@ -1,0 +1,166 @@
+@import url(./style.css);
+
+.button-book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin-top: 0.5%;
+  margin-right: 4%;
+  background-color: #0069ff;
+  width: 216px;
+  height: 46px;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+.button-book a {
+  color: #f9f9f9;
+  font-size: 18px;
+}
+.wrapper {
+  margin: 0 2vw;
+}
+.header {
+  margin-top: 8vh;
+}
+.header h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 2vh;
+}
+
+.header p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.month {
+  margin: 4vh 0;
+}
+
+.month h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6f7482;
+  margin-bottom: 2vh;
+}
+
+input {
+  background-color: #f8fafc;
+  border-radius: 4px;
+  border-color: transparent;
+  width: 172px;
+  height: 48px;
+  font-size: 16px;
+  color: #b8bcca;
+}
+
+hr {
+  width: 98%;
+  height: 1px;
+  color: #e5e5e5;
+}
+.booking {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#slider {
+  margin: 3vh 0;
+  width: 100%;
+}
+#row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+span {
+  width: 97px;
+  text-align: center;
+}
+#row #day,
+#date {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #678398;
+}
+#day {
+  font-size: 16px;
+}
+#date {
+  font-size: 24px;
+  font-weight: 600;
+}
+#arrows {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.black {
+  color: #000000;
+}
+.slots {
+  margin-top: 4vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4vh;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.time,
+.book {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  margin-bottom: 2vh;
+
+  width: 97px;
+  height: 40px;
+
+  background: #f8fafc;
+  border-radius: 4px;
+  color: #b8bcca;
+  font-size: 16px;
+}
+
+.active {
+  color: #0069ff;
+  border: 1px solid #0069ff;
+}
+
+#next-btn {
+  margin-top: 4vh;
+  width: 100%;
+}
+
+#next {
+  font-family: 'Inter', 'sans-serif';
+  font-style: normal;
+  float: right;
+  background-color: #0069ff;
+  width: 97px;
+  height: 46px;
+  border-color: transparent;
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
