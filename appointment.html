@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/appointment.css" />
+    <title>Appointment</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="#"><img src="..\images\icon.png" /></a>
+        </li>
+        <li><a href="#">LOGO</a></li>
+        <div class="centered v-class">
+          <li><a href="#">About Us</a></li>
+          <div class="dropdown">
+            <li><a href="#">Services</a></li>
+            <div class="dropdown-content">
+              <li><a href="#">Market Research</a></li>
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Web Development and Designing</a></li>
+            </div>
+          </div>
+          <div class="dropdown">
+            <li><a href="#">Resources</a></li>
+            <div class="dropdown-content">
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+            </div>
+          </div>
+          <li><a href="#">Contact Us</a></li>
+        </div>
+        <a href="#" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <button class="button-book"><a href="#">Book Consultation</a></button>
+      </ul>
+    </nav>
+    <div class="wrapper">
+      <div class="header">
+        <h4>Appointment Date</h4>
+        <p>Please Choose at what time you would be available for a call.</p>
+      </div>
+
+      <div class="month">
+        <h6>Month</h6>
+        <input type="month" id="month" name="month" value="2022-07" />
+      </div>
+
+      <div class="booking">
+        <hr />
+        <div id="slider">
+          <div id="row">
+            <div id="day">
+              <span class="black">Mon</span>
+              <span>Tue</span>
+              <span class="black">Wed</span>
+              <span class="black">Thurs</span>
+              <span>Fri</span>
+              <span>Sat</span>
+              <span>Sun</span>
+            </div>
+            <div id="arrows">
+              <img src="./images/Arrow - Left 2.png" />
+              <img src="./images/Arrow - Right 2.png" />
+            </div>
+            <div id="date">
+              <span class="black">22</span>
+              <span>23</span>
+              <span class="black">24</span>
+              <span class="black">25</span>
+              <span>26</span>
+              <span>27</span>
+              <span>28</span>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="slots">
+          <div class="col">
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="book">Booked</div>
+          </div>
+          <div class="col">
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="book">Booked</div>
+          </div>
+          <div class="col">
+            <div class="time">4:00 pm</div>
+            <div class="time active">4:00 pm</div>
+            <div class="book">Booked</div>
+          </div>
+          <div class="col">
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="book">Booked</div>
+          </div>
+          <div class="col">
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="book">Booked</div>
+          </div>
+          <div class="col">
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="book">Booked</div>
+          </div>
+          <div class="col">
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="time">4:00 pm</div>
+            <div class="book">Booked</div>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <div id="next-btn"><button id="next">Next</button></div>
+    </div>
+    <script src="./script/responsive.js"></script>
+  </body>
+</html>
