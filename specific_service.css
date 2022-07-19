@@ -1,0 +1,314 @@
+@import url(./style.css);
+
+.button-book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin-top: 0.5%;
+  margin-right: 4%;
+  background-color: #0069ff;
+  width: 216px;
+  height: 46px;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+.button-book a {
+  color: #f9f9f9;
+  font-size: 18px;
+}
+
+.button-book-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  background-color: #0069ff;
+  width: 259px;
+  height: 46px;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+.button-book-two a {
+  color: #f9f9f9;
+  font-size: 18px;
+}
+
+.header {
+  margin: 2vh 0;
+  height: 96vh;
+}
+
+#bg {
+  height: 100%;
+  background-color: #261133;
+  background-image: url(../images/Frame26.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#paper-img {
+  width: 18%;
+}
+
+.header h1 {
+  margin-top: 6vh;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.header p {
+  margin-top: -2vh;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.box1 {
+  height: 318px;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box1 span {
+  color: #0249ff;
+}
+
+.box1 h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.box1 button {
+  color: #0249ff;
+  width: 259px;
+  height: 46px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 3px, 28px, 3px, 28px;
+  border: 2px solid #0249ff;
+  border-radius: 10px;
+}
+
+.content,
+.steps {
+  margin: 0 8vw;
+  color: #313131;
+}
+
+.content-points {
+  margin-bottom: 6vh;
+}
+
+.content-points h1,
+.steps h1 {
+  margin-bottom: 2vh;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.content-points p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.step-content h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.step-content p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  height: 300px;
+  border-radius: 24px;
+  margin-bottom: 2%;
+}
+
+.step-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: fit-content;
+  width: 50%;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 28vh;
+  width: 20vw;
+  background-image: url(../images/progessVector.png);
+  background-repeat: no-repeat;
+}
+
+.progress2 {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 28vh;
+  width: 20vw;
+  background-image: url(../images/progressVector2.png);
+  background-repeat: no-repeat;
+}
+
+.circle {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.5vh;
+  width: 3vw;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-left: 6vw;
+  padding-top: -10vh;
+  background: #f2f2f2;
+  box-shadow: 6px 6px 18px rgba(53, 51, 196, 0.2);
+}
+.two {
+  margin-left: 9vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .progress,
+  .progress2 {
+    display: none;
+  }
+  .step {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 8vh;
+  }
+
+  .header {
+    height: 68vh;
+  }
+
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .header p {
+    font-size: 12px;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+  }
+
+  .step img {
+    width: 30%;
+  }
+
+  .box1 button {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 28px;
+    font-size: 11px;
+  }
+
+  .box1 h1 {
+    font-size: 12px;
+  }
+
+  .step-content {
+    text-align: justify;
+  }
+
+  .content-points h1,
+  .steps h1 {
+    margin-bottom: 2vh;
+    font-weight: 700;
+    font-size: 36px;
+  }
+
+  .step-content h1 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .content-points,
+  .step-content p {
+    font-size: 12px;
+  }
+
+  .button-book-two {
+    display: flex;
+    width: 229px;
+    height: 30px;
+  }
+
+  .button-book-two a {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .progress,
+  .progress2 {
+    display: none;
+  }
+
+  .header {
+    height: 65vh;
+  }
+
+  .box1 h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .progress,
+  .progress2 {
+    display: block;
+  }
+  .header {
+    height: 96vh;
+  }
+  .box1 {
+    height: 318px;
+    width: 80%;
+  }
+
+  .box1 h1 {
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .box1 button {
+    width: 259px;
+    height: 46px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
